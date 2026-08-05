@@ -1,4 +1,4 @@
-# 🧱 Brick Breaker — Juego Arcade en Java
+#  Brick Breaker — Juego Arcade en Java
 
 ## Descripción
 
@@ -8,7 +8,7 @@ El juego cuenta con un estilo visual **Neon Arcade**, animación de partículas,
 
 ---
 
-## 🎮 Cómo Jugar
+##  Cómo Jugar
 
 ### Controles
 
@@ -32,24 +32,9 @@ El juego cuenta con un estilo visual **Neon Arcade**, animación de partículas,
 
 ---
 
-## ✨ Características Principales y Mejoras Visuales
-
-- 🎨 **Estilo Neon Arcade**: Paletas de colores vibrantes por nivel, brillos suaves (glow), fuentes modernas y fondo animado de campo estelar.
-- ✨ **Efectos de Partículas y Estela**: Explosiones de partículas al romper ladrillos, chispas al golpear ladrillos reforzados y estela luminosa siguiendo la pelota.
-- ⏸️ **Menú de Pausa In-Game**: Menú overlay interactivo al presionar `P` o `ESC`, permitiendo Continuar, Reiniciar o regresar al Menú Principal.
-- 📊 **5 Niveles con Patrones Únicos**:
-  - **Nivel 1 — Grid Clásico**: Disposición tradicional 5x10.
-  - **Nivel 2 — Diamante**: Formación geométrica con núcleo reforzado.
-  - **Nivel 3 — Fortaleza**: Estructura de bloque con paredes perimetrales de doble resistencia (2 HP).
-  - **Nivel 4 — Zigzag**: Filas entrelazadas con ladrillos de alta resistencia.
-  - **Nivel 5 — Neon Supremo**: Matriz densa de ladrillos reforzados (hasta 3 HP).
-- 🏆 **Sistema de Combos**: Incrementa tus puntos multiplicando por x2 (5 hits), x3 (10 hits) y x4 (20+ hits).
-- 🎆 **Pantalla de Victoria**: Pantalla especial con fuegos artificiales de partículas al superar los 5 niveles.
-- 💾 **Tabla de Posiciones (Top 10)**: Persistencia binaria (`data/scores.dat`) con medallas dorada, plateada y de bronce.
-
 ---
 
-## 🏗️ Arquitectura del Proyecto
+##  Arquitectura del Proyecto
 
 El proyecto sigue la arquitectura **MVC (Modelo-Vista-Controlador)**:
 
@@ -86,15 +71,7 @@ Juego Arcade/
 
 ---
 
-## 🔧 Requisitos
-
-- **Java JDK 17** o superior.
-- Sistema operativo: Windows / Linux / macOS.
-- **Sin dependencias externas**: Utiliza exclusivamente las librerías estándar de Java (`javax.swing`, `java.awt`).
-
----
-
-## 🚀 Compilación y Ejecución
+##  Compilación y Ejecución
 
 ### Línea de comandos (PowerShell / Terminal)
 
@@ -112,6 +89,3 @@ java -cp out brickbreaker.Main
 
 ---
 
-## 👥 Créditos
-
-Proyecto final de **Programación Orientada a Objetos (POO)**.
