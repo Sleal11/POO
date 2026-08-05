@@ -78,7 +78,8 @@ Juego Arcade/
 **Compilar:**
 
 ```bash
-javac -d out -encoding UTF-8 src/brickbreaker/Main.java src/brickbreaker/model/*.java src/brickbreaker/view/*.java src/brickbreaker/controller/*.java
+javac -encoding UTF-8 -d out (Get-ChildItem -Recurse -Filter *.java src).FullName
+
 ```
 
 **Ejecutar:**
